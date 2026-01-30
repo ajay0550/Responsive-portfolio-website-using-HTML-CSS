@@ -42,4 +42,47 @@
 .skill-card:hover {
   transform: translateY(-5px);
 }
+.projects {
+  padding: 3rem;
+  text-align: center;
+}
+
+.project-cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: #ffffff;
+  padding: 1.5rem;
+  width: 280px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* GRID GALLERY */
+.gallery {
+  padding: 3rem;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+
 
