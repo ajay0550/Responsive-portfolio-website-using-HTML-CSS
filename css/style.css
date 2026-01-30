@@ -18,3 +18,28 @@
 .navbar a:hover {
   color: #4f46e5;
 }
+
+.about {
+  padding: 3rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.skills-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  padding: 1rem 2rem;
+  background: #f1f1f1;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
