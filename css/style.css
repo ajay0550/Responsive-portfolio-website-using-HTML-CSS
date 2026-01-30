@@ -85,4 +85,61 @@
   border-radius: 10px;
 }
 
+/* ================= RESPONSIVE DESIGN ================= */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .hero {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .project-cards {
+    justify-content: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar nav {
+    margin-top: 1rem;
+  }
+
+  .hero h2 {
+    font-size: 1.8rem;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  .hero {
+    height: auto;
+  }
+}
+.hero {
+  min-height: 80vh;
+}
+
+.projects {
+  padding: 5vw;
+}
+
+.card {
+  margin: 2%;
+}
+
+
 
